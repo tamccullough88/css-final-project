@@ -1,3 +1,37 @@
 body {
   background-color: #f0eae4;
 }
+
+* {
+  border: 2px solid black;
+}
+
+#banner {
+  background-color: rgb(168, 6, 6);
+  padding: 30px 0;
+}
+
+#logo-bar {
+  padding: 1em 0;
+}
+
+.logo {
+  position: relative;
+  padding: 1em 90em 1em 1em;
+}
+
+.signin {
+}
+
+.search {
+}
+
+.heart {
+}
+
+.cart {
+}
+
+nav li {
+  list-style-type: none;
+}
