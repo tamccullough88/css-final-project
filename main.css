@@ -1,37 +1,124 @@
 body {
   background-color: #f0eae4;
+  overflow-y: visible;
 }
 
-* {
+/* {
   border: 2px solid black;
+}*/
+
+header {
 }
 
 #banner {
-  background-color: rgb(168, 6, 6);
-  padding: 30px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 7vh;
+  background-color: darkred;
+}
+
+#banner h2 {
+  text-align: center;
+  color: white;
+  font-family: "Permanent Marker", cursive;
+  font-style: italic;
+  margin: 0 0 1px 0;
+  font-size: 4vh;
 }
 
 #logo-bar {
-  padding: 1em 0;
+  display: flex;
+  flex-wrap: nowrap;
+  border-bottom: 1px solid white;
+  align-items: center;
+  justify-content: center;
+  height: 8vh;
+  margin: 1px 0 0 0;
 }
 
 .logo {
-  position: relative;
-  padding: 1em 90em 1em 1em;
+  height: 8vh;
+  padding: 0.5vh 71vw 0 1vw;
+  margin: 0;
+  border-right: 1px solid white;
+  border-bottom: 1px solid white;
+}
+.logo img {
+  height: 6vh;
 }
 
 .signin {
+  height: 8vh;
+  width: 9vw;
+  padding: 2vh 0;
+  border-right: 1px solid white;
+  border-bottom: 1px solid white;
+  margin: auto;
+  font-family: "Coustard", serif;
+  font-size: clamp(0.25rem, 1.25vw, 2rem);
+  text-align: center;
 }
 
 .search {
+  height: 8vh;
+  width: auto;
+  padding: 2vh 1.5vw;
+  border-right: 1px solid white;
+  border-bottom: 1px solid white;
+  margin: 0;
 }
 
 .heart {
+  height: 8vh;
+  width: auto;
+  padding: 2vh 1.5vw;
+  border-right: 1px solid white;
+  border-bottom: 1px solid white;
+  margin: 0;
 }
 
 .cart {
+  padding: 2vh 1vw;
 }
 
+nav {
+  padding-top: 2vh;
+}
+
+nav ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 100vw;
+  font-family: "Coustard", serif;
+  font-size: 20px;
+}
 nav li {
   list-style-type: none;
+  padding: 1vh 1vw;
+}
+
+h1 {
+  font-family: "Coustard", serif;
+  font-size: 2em;
+}
+
+.pictures {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.pictures img {
+  height: 65vh;
+  padding: 0 0.125vw;
+}
+a {
+  color: black;
+  text-decoration: none;
+}
+
+a:hover {
+  color: darkred;
 }
